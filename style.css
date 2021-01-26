@@ -16,7 +16,6 @@ body {
     scroll-behavior: smooth;
     font-style: normal;
     line-height: 1.65;
-    height: 300vh;
 }
 
 a {
@@ -61,36 +60,6 @@ a {
 
 
 /* Nav Bar Section */
-.some-links {
-    display: flex;
-    justify-content: space-around;
-    width: 10%;
-    margin-left: 2%;
-    font-size: .75rem;
-    padding-bottom: 5px;
-}
-
-.some-links img {
-    width: 35%;
-    margin-left: 40%;
-    position: relative;
-    top: 10%;
-}
-
-.logo {
-    display: flex;
-    flex: 2;
-    width: 45%;
-    margin-left: 3%;
-    margin-right: 3%;
-    
-}
-
-.logo img {
-    width: 100%;
-    padding-bottom: 10px;
-}
-
 nav {
     display: flex;
     flex: 2;
@@ -101,6 +70,37 @@ nav {
     margin: 0;
     z-index: 2;
     top: 2.5%;
+    background-color: rgb(243, 161, 161);
+}
+
+.logo {
+    display: flex;
+    width: 33%;
+    margin-left: 1%;
+    margin-right: 20%;
+}
+
+.logo img {
+    width: 400px;
+    padding-bottom: 5px;
+}
+
+.some-links {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin-left: 10%;
+    margin-right: 20%;
+    font-size: .75rem;
+    padding-bottom: 5px;
+    position: fixed;
+}
+
+.some-links img {
+    width: 20%;
+    margin-left: 40%;
+    position: relative;
+    top: 10%;
 }
 
 .nav-links {
@@ -123,6 +123,11 @@ nav {
 }
 
 nav:hover {
+    
+}
+
+.nav-links:hover {
+    border-bottom: white;
 }
 
 .burger {
@@ -139,35 +144,30 @@ nav:hover {
 }
 
     /* Responsiv max-w 1015px */
-    @media only screen and (max-width: 1015px) {
+    @media only screen and (max-width: 1115px) {
         body {
             overflow-x: hidden;
         }
         
-        .some-links {
-            display: none;
-            cursor: pointer;
-        }
-
         .logo {
             display: flex;
             flex: 2;
-            width: 45%;
+            width: 45%; 
             margin-left: 3%;
             margin-right: 3%;
 
         }
         
         .logo img {
-            width: 40%;
+            width: 400px; /* EVT LAV % OM TIL PX, SÅ DU UNDGÅR SIZING */
             padding-bottom: 10px;
         }
         
         .nav-links {
             position: absolute;
             right: 0px;
-            height: 86vh;
-            top: 14vh;
+            height: 88vh;
+            top: 12vh;
             background-color: #8f5708;
             opacity: 70%;
             display: flex;
