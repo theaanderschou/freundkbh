@@ -16,10 +16,12 @@ body {
     scroll-behavior: smooth;
     font-style: normal;
     line-height: 1.65;
+    height: 300vh;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 
@@ -70,64 +72,76 @@ nav {
     margin: 0;
     z-index: 2;
     top: 2.5%;
-    background-color: rgb(243, 161, 161);
+/*    background-color: rgb(243, 161, 161);*/
 }
 
 .logo {
     display: flex;
-    width: 33%;
+    width: 40%;
     margin-left: 1%;
-    margin-right: 20%;
+    margin-right: 10%;
 }
 
 .logo img {
-    width: 400px;
+    width: 350px;
     padding-bottom: 5px;
 }
 
 .some-links {
     display: flex;
     justify-content: space-around;
-    width: 15%;
-    margin-left: 10%;
-    margin-right: 20%;
-    font-size: .75rem;
+    width: 20%;
     padding-bottom: 5px;
-    position: fixed;
+    margin-right: 5%;
 }
 
 .some-links img {
-    width: 20%;
-    margin-left: 40%;
+    width: 20px;
     position: relative;
     top: 10%;
 }
 
 .nav-links {
     display: flex;
-    justify-content: space-around;
-    width: 45%;
-    font-size: .75rem;
-    /*text-shadow: 2px 2px 2px #afafaf;*/
-    margin-right: 2%;
-}
+    justify-content: flex-end;
+    width: 100%;
+    height: 8vh;
+    position: relative;
+  }
+  
+  .nav-links li {
+    display: block;
+    flex-grow: 1;
+    /*background: rgb(219, 173, 173);
+    transition: .3s;*/
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 3px;
+    font-size: .6rem;
+  }
+  
+  .nav-links li:hover {
+    border-bottom: 2px solid white;
+  }
 
+/*.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    font-size: .6rem;
+    /*text-shadow: 2px 2px 2px #afafaf;
+}*/
+/*
 .nav-links li {
+    display: block;
+    flex-grow: 1;
     list-style: none;
-}
+}*/
 
 .nav-links a {
     color: #ffffff;
     text-decoration: none;
     letter-spacing: 3px;
-}
-
-nav:hover {
-    
-}
-
-.nav-links:hover {
-    border-bottom: white;
 }
 
 .burger {
@@ -152,14 +166,13 @@ nav:hover {
         .logo {
             display: flex;
             flex: 2;
-            width: 45%; 
+            width: 40%; 
             margin-left: 3%;
             margin-right: 3%;
-
         }
         
         .logo img {
-            width: 400px; /* EVT LAV % OM TIL PX, SÅ DU UNDGÅR SIZING */
+            width: 350px; /* EVT LAV % OM TIL PX, SÅ DU UNDGÅR SIZING */
             padding-bottom: 10px;
         }
         
