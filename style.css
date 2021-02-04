@@ -11,8 +11,8 @@ html {
 }
 
 body {
-    /*background: linear-gradient(#c6f2ff, #ffffff 70%);*/
-    background: #88b8aa;
+    background: linear-gradient(#ffffff, #84989e 20%);
+    /*background: #88b8aa;*/
     scroll-behavior: smooth;
     font-style: normal;
     line-height: 1.65;
