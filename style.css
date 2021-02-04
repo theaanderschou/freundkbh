@@ -21,7 +21,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 
@@ -121,7 +121,7 @@ nav {
   }
   
   .nav-links li:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
   }
 
 /*.nav-links {
@@ -139,7 +139,7 @@ nav {
 }*/
 
 .nav-links a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     letter-spacing: 3px;
 }
@@ -152,7 +152,7 @@ nav {
 .burger div {
     width: 25px;
     height: 3px;
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 5px;
     transition: all 0.3s ease;
 }
