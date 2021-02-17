@@ -80,6 +80,7 @@ nav {
     width: 40%;
     margin-left: 1%;
     margin-right: 10%;
+    margin-top: 10px;
 }
 
 .logo img {
@@ -96,7 +97,7 @@ nav {
     margin-right: 5%;
 }
 
-.some-links img {
+.some-link img {
     width: 20px;
     position: relative;
     top: 10%;
@@ -116,28 +117,21 @@ nav {
     /*background: rgb(219, 173, 173);
     transition: .3s;*/
     text-align: center;
-    padding: 20px 0;
     letter-spacing: 3px;
     font-size: .6rem;
+      position: relative;
   }
+
+.nav-links li a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
   
   .nav-links li:hover {
     border-bottom: 2px solid black;
   }
-
-/*.nav-links {
-    display: flex;
-    justify-content: flex-end;
-    width: 70%;
-    font-size: .6rem;
-    /*text-shadow: 2px 2px 2px #afafaf;
-}*/
-/*
-.nav-links li {
-    display: block;
-    flex-grow: 1;
-    list-style: none;
-}*/
 
 .nav-links a {
     color: #000000;
@@ -148,7 +142,6 @@ nav {
 .burger {
     display: none;
     cursor: pointer;
-    
 }
 
 .burger div {
@@ -183,19 +176,19 @@ nav {
             right: 0px;
             height: 88vh;
             top: 12vh;
-            background-color: #ffffff;
-            opacity: 60%;
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 40%;
             transform: translateX(100%);
-            transition: transform 0.5s ease-in;
+            transition: 0.5s ease-in;
             font-size: .875rem;
         }
     
         .nav-links li {
             opacity: 0;
+            width: 100%;
+            transition: .2s;
         }
 
         .nav-links li:hover {
@@ -204,12 +197,8 @@ nav {
     
         .nav-links a {
             color: black;
-            padding: 60px 70px;
-        }
-    
-        .nav-links a:hover {
-            color: black;
-            font-weight: 700;
+            width: 80%;
+            display: none;
         }
     
         .burger {
@@ -219,6 +208,20 @@ nav {
     
         .nav-active {
             transform: translateX(0%);
+            background-color: #ffffff5b;
+        }
+        
+        .nav-active a {
+            display: block;
+        }
+        
+        .nav-active li:hover {
+            background: rgba(128,128,128,.15)
+        }
+        
+        .nav-links li:hover a {
+            color: black;
+            font-weight: 700;
         }
     
         @keyframes navLinkFade {
