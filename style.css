@@ -250,7 +250,7 @@ nav {
 }
 
 #herobooking .bookingcta {
-    display: block;
+    display: flex;
     margin: 80px auto;
     width: 200px;
     height: 60px;
@@ -263,6 +263,7 @@ nav {
     transition: .5s ease;
     transition-property: background-color, color;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.379);
+    z-index: 2;
 }
 
 #herobooking .bookingcta:hover {
@@ -275,9 +276,11 @@ nav {
 
 
 /* Index Gallery */
+#container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: teal;
+    z-index: 1;
+}
 
 /* End of Index Gallery */
-
-
-
-
