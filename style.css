@@ -182,17 +182,17 @@ nav {
           flex-direction: column;
           align-items: center;
           width: 40%;
-          transform: translateX(100%);
+          transform: translateX(-10%); /* OVERFLOW FEJL LÅ HER */
           transition: 0.5s ease-in;
           font-size: 0.875rem;
       }
   
-      .nav-links li {
+     .nav-links li {
           opacity: 0;
           width: 100%;
           transition: 0.2s;
       }
-  
+
       .nav-links li:hover {
           border-bottom: none;
       }
