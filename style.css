@@ -507,6 +507,7 @@ footer {
     color: #000;
     font-weight: 300;
     margin-top: 6px;
+    margin-left: 25px;
     display: block;
     text-decoration: none;
     font-size: 12px;
@@ -543,8 +544,9 @@ footer {
     display: flex;
     height: 50px;
     z-index: 15;
-    margin: 40px auto 0 auto;
-    text-align: center;
+    /*position: relative;
+    right: -1010px;
+    top: 20px;*/
   }
   
   .footer-social img {
