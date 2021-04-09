@@ -280,14 +280,14 @@ nav {
 
 
 
-/* Booking Button */
-.booking {
+/* Booking Button 
+#herobooking {
     transform: translateX(40%);
     margin-top: 7%;
     width: 100%;
 }
 
-.booking .cta {
+#herobooking .bookingcta {
     display: grid;
     padding: 20px 30px;
     color: #000000;
@@ -307,13 +307,42 @@ nav {
     margin-right: 20%;
 }
 
-.booking .cta:hover {
+#herobooking .bookingcta:hover {
     color: #D0C6B8;
     background-color: #84989e;
     color: black;
 }
 /* End of Booking Button */
 
+
+/* Booking CTA Index */
+#herobooking .bookingcta {
+  display: flex;
+  width: 200px;
+  height: 60px;
+  align-items: center;
+  text-align: center;
+  padding-left: 45px;
+  background-color: #e4c67a;
+  border: 1px solid #000;
+  letter-spacing: .05rem;
+  text-transform: uppercase;
+  transition: .5s ease;
+  transition-property: background-color, color;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.379);
+  z-index: 2;
+  position: absolute; 
+  left: 50%; 
+  top:200px; 
+  transform: translateX(-50%);
+}
+
+#herobooking .bookingcta:hover {
+  background-color: #2d8fd5;
+  color: black;
+}
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+/* End of Booking CTA Index */
 
 
 
