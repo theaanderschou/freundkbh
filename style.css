@@ -262,7 +262,7 @@ nav {
         width: 250px;
       }
       .nav-links {
-        transform: translateX(-20%); /* OVERFLOW FEJL LÅ HER */
+        transform: translateX(-10%); /* OVERFLOW FEJL LÅ HER */
         width: 50%;
       }
     }
