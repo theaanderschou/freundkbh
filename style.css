@@ -285,6 +285,9 @@ nav {
 #herobooking {
   display: flex;
   z-index: 2;
+  position: absolute; 
+  left: 50%; 
+  top: 200px;
 }
 
 .bookingcta {
@@ -297,21 +300,53 @@ nav {
   transition: .5s ease;
   transition-property: background-color, color;
   transform: translateX(-50%);
-  padding-left: 14%;
+  padding-left: 27%;
   align-items: center;
   text-transform: uppercase;
   color: #000;
   font-size: 0.7rem;
   letter-spacing: 3px;
-  position: absolute; 
-  left: 50%; 
-  top: 200px;
 }
 
 #herobooking .bookingcta:hover {
   background-color: #000;
   color: #fff;
 }
+
+    /* Responsiv max-w 565px */
+    @media only screen and (max-width: 400px) {
+      #herobooking {
+        left: 45%; 
+      }
+
+      .bookingcta {
+        margin-left: 10%;
+      }
+    }
+
+    /* Responsiv max-w 565px */
+    @media only screen and (max-width: 340px) {
+      #herobooking {
+        left: 40%; 
+      }
+
+      .bookingcta {
+        margin-left: 15%;
+        padding-left: 19%;
+      }
+    }
+
+    /* Responsiv max-w 565px */
+    @media only screen and (max-width: 320px) {
+      #herobooking {
+        left: 35%; 
+      }
+
+      .bookingcta {
+        margin-left: 20%;
+        padding-left: 16%;
+      }
+    }
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
 /* End of Booking CTA Index */
 
@@ -615,7 +650,7 @@ footer {
     }
 
     /* Responsiv max-w 565px */
-    @media only screen and (max-width: 340PX) {
+    @media only screen and (max-width: 340px) {
       .footer-text a {
         padding: 0 20px 0 20px;
       }
