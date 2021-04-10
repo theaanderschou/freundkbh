@@ -182,7 +182,7 @@ nav {
           display: flex;
           flex-direction: column;
           align-items: center;
-          width: 350px;
+          width: 32%;
           transform: translateX(-10%); /* OVERFLOW FEJL LÅ HER */
           transition: 0.5s ease-in;
           font-size: 0.875rem;
