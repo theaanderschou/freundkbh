@@ -182,11 +182,10 @@ nav {
           display: flex;
           flex-direction: column;
           align-items: center;
-          width: 32%;
+          width: 40%;
           transform: translateX(-10%); /* OVERFLOW FEJL LÅ HER */
           transition: 0.5s ease-in;
           font-size: 0.875rem;
-          z-index: 3;
       }
   
      .nav-links li {
@@ -216,6 +215,7 @@ nav {
           background-color: #ced8df;
           margin-top: 3.5vh;
           border: 1px #1111110e solid;
+          z-index: 3;
       }
   
       .nav-active a {
@@ -260,6 +260,9 @@ nav {
     @media only screen and (max-width: 565px) {
       .logo img {
         width: 250px;
+      }
+      .nav-links {
+        transform: translateX(0%); /* OVERFLOW FEJL LÅ HER */
       }
     }
     /* End of Responsiv max-w 565px */
