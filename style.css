@@ -182,7 +182,7 @@ nav {
           display: flex;
           flex-direction: column;
           align-items: center;
-          width: 50%;
+          width: 40%;
           transform: translateX(-10%); /* OVERFLOW FEJL LÅ HER */
           transition: 0.5s ease-in;
           font-size: 0.875rem;
@@ -257,12 +257,13 @@ nav {
     /* End of Responsiv max-w 1180px */
 
     /* Responsiv max-w 565px */
-    @media only screen and (max-width: 565px) {
+    @media only screen and (max-width: 600px) {
       .logo img {
         width: 250px;
       }
       .nav-links {
-        transform: translateX(-15%); /* OVERFLOW FEJL LÅ HER */
+        transform: translateX(-20%); /* OVERFLOW FEJL LÅ HER */
+        width: 50%;
       }
     }
     /* End of Responsiv max-w 565px */
