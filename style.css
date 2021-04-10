@@ -575,7 +575,7 @@ footer {
     /* Responsiv max-w 565px */
     @media only screen and (max-width: 565px) {
       footer {
-        height: 50vh;
+        height: 80vh;
         overflow: unset;
       }
 
@@ -586,7 +586,7 @@ footer {
       }
 
       .footer-logo {
-        margin: 20px 0 -20px 0;
+        margin: 30px 0 10px 0;
       }
 
       .footer-logo img {
@@ -595,8 +595,12 @@ footer {
       }
 
       .footer-column {
-        margin: 5vh 0 30px 0;
+        margin: 6vh 0 30px 0;
         width: auto;
+      }
+
+      .footer-text {
+        margin-top: 10px;
       }
     }
 /* End of Footer Section */
