@@ -313,7 +313,7 @@ nav {
   color: #fff;
 }
 
-    /* Responsiv max-w 565px */
+    /* Responsiv max-w 400px */
     @media only screen and (max-width: 400px) {
       #herobooking {
         left: 45%; 
@@ -324,7 +324,14 @@ nav {
       }
     }
 
-    /* Responsiv max-w 565px */
+    /* Responsiv max-w 375px */
+    @media only screen and (max-width: 375px) {
+      .bookingcta {
+        padding-left: 21%;
+      }
+    }
+
+    /* Responsiv max-w 340px */
     @media only screen and (max-width: 340px) {
       #herobooking {
         left: 40%; 
@@ -336,7 +343,7 @@ nav {
       }
     }
 
-    /* Responsiv max-w 565px */
+    /* Responsiv max-w 320px */
     @media only screen and (max-width: 320px) {
       #herobooking {
         left: 35%; 
