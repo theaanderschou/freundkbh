@@ -317,7 +317,7 @@ nav {
     @media only screen and (max-width: 400px) {
       #herobooking {
         left: 45%;
-        top: 50%;
+        top: 60%;
       }
 
       .bookingcta {
