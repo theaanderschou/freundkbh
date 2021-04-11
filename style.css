@@ -657,10 +657,39 @@ footer {
       }
     }
 
-    /* Responsiv max-w 565px */
-    @media only screen and (max-width: 340px) {
-      .footer-text a {
-        padding: 0 20px 0 20px;
-      }
-    }
 /* End of Footer Section */
+
+
+
+/* Data and Cookies Section */
+#data-cookie-sec {
+height: 100%;
+width: 80%;
+margin: 50px 10%;
+
+}
+
+#data-cookie-sec h1 {
+
+}
+
+#data-cookie-sec h2 {
+
+}
+
+#data-cookie-sec h3 {
+
+}
+
+#data-cookie-sec p {
+
+}
+
+#data-cookie-sec a {
+  color: #1383d3;
+}
+
+#data-cookie-sec a:hover {
+
+}
+/* End of Data and Cookies Section */
