@@ -662,37 +662,17 @@ footer {
 
 
 /* Data and Cookies Section */
-#data-cookie-sec {
-height: 100%;
-width: 80%;
-margin: 50px 10%;
+#consent-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 8rem;
+  background-color: #fff;
+  transition: opacity 1s ease;
 
-}
-
-#data-cookie-sec h1 {
-  font-size: 26px;
-  margin-top: 20px;
-}
-
-#data-cookie-sec h2 {
-  font-size: 20px;
-  margin-top: 40px;
-}
-
-#data-cookie-sec h3 {
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-#data-cookie-sec p {
-  font-size: 14px;
-}
-
-#data-cookie-sec a {
-  color: #1383d3;
-}
-
-#data-cookie-sec a:hover {
-
+  &.hidden {
+      opacity: 0;
+  }
 }
 /* End of Data and Cookies Section */
