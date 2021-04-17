@@ -361,7 +361,6 @@ nav {
 
 
 
-
 /* Index Gallery */
 /** LINK: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ **/
 #index-gallery {
@@ -667,12 +666,26 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 2rem 8rem;
-  background-color: #fff;
+  padding: 1.5rem 8rem;
+  background-color: #dbe3e9;
   transition: opacity 1s ease;
+  font-size: 12px;
+  text-align: center;
 
   &.hidden {
       opacity: 0;
   }
+}
+
+#consent-popup a {
+  color: #7eb5dd;
+}
+
+#consent-popup a:hover {
+  font-weight: 600;
+}
+
+#accept {
+  text-decoration: underline;
 }
 /* End of Data and Cookies Section */
