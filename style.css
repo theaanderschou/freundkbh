@@ -11,7 +11,6 @@ html {
   height: 100%;
 }
 
-
 body {
   background: #ced8df;
   scroll-behavior: smooth;
@@ -19,9 +18,30 @@ body {
   line-height: 1.65;
 }
 
+h1 {
+  font-size: 30px;
+  margin: 50px 80px 0 80px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 40px 80px 0 80px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 50px 80px 10px 80px;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 120px 10px 80px;
+}
+
 a {
   text-decoration: none;
   color: black;
+  font-size: 14px;
 }
 
 
@@ -31,13 +51,16 @@ a {
 .announcement {
   display: block;
   background-color: #111111;
-  font-size: 0.7rem;
   font-weight: 300;
   height: 4vh;
   width: 100%;
-  text-align: center;
   position: relative;
-  top: -26px;
+  top: -27px;
+}
+
+.announcement-p {
+  margin: 0 0;
+  font-size: 14px;
 }
 
 .announcement p {
@@ -509,7 +532,13 @@ nav {
     grid-row-end: 30;
 }
 /* End of Index Gallery */
+#data-cookie-sec {
+  margin-bottom: 100px;
+}
 
+.udgiver-terms {
+  margin-top: 60px;
+}
 
 
 
