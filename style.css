@@ -700,14 +700,21 @@ footer {
   background-color: #fff;
   transition: opacity 1s ease;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: 12px;
   text-align: center;
 /*
 =======
+=======
+>>>>>>> parent of 2174f98... cookie consent links update
 
 >>>>>>> parent of 2174f98... cookie consent links update
   &.hidden {
       opacity: 0;
+<<<<<<< HEAD
   }*/
+=======
+  }
+>>>>>>> parent of 2174f98... cookie consent links update
 }
 /* End of Data and Cookies Section */
