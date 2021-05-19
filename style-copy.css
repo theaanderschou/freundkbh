@@ -703,9 +703,9 @@ footer {
 
 
 
-/* PRICE SUBPAGE */
+/* PRICES SUBPAGE */
 #price-list {
-  height: 200vh;
+  height: 100vh;
 }
 
 .price-header {
@@ -717,13 +717,46 @@ footer {
   margin-bottom: 20px;
 }
 
-#price-list hr {
-  width: 50%;
-  margin: 25px auto 25px auto;
-  height: 1.5px;
-  background-color: #1111110e;
-  border: none;
+#price-list h2, #price-list h3, #price-list p {
+  text-align: center;
 }
 
+.price-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+  margin: 0 auto 0 auto;
+  width: 90%;
+  height: 100vh;
+  background-color: teal;
+}
 
-/* End of PRICE SUBPAGE */
+.klipning {
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+
+.styling {
+  grid-column: 2/2;
+  grid-row: 1/1;
+}
+
+.farvebehandling-header {
+  grid-column: 1/4;
+  grid-row: 2/2;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*.farvebehandling-p1 {
+  grid-column: 1/1;
+  grid-row: 3/3;
+}
+
+.farvebehandling-p2 {
+  grid-column: 2/2;
+  grid-row: 3/3;
+}
+
+NÅET TIL P1 OG P2 i grid
+/* End of PRICES SUBPAGE */
