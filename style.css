@@ -705,7 +705,7 @@ footer {
 
 /* PRICE SUBPAGE */
 #price-list {
-  height: 200vh;
+  height: 265vh;
 }
 
 .price-header {
@@ -717,13 +717,98 @@ footer {
   margin-bottom: 20px;
 }
 
-#price-list hr {
+.price-header hr {
   width: 50%;
-  margin: 25px auto 25px auto;
+  margin: 25px auto 50px auto;
   height: 1.5px;
   background-color: #1111110e;
   border: none;
 }
 
+#price-list h3 {
+  margin-top: 50px;
+}
 
+.price-p1 {
+  height: 45vh;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.klipning {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+.styling {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+.price-p2 {
+  height: 115vh;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.farvebehandling-header p {
+  width: 60%;
+  margin: 20px auto 0 auto;
+}
+
+.prices-p2-1 {
+  float: left;
+  height: 85%;
+  width: 50%;
+}
+
+.prices-p2-2 {
+  float: left;
+  height: 85%;
+  width: 50%;
+}
+
+.price-policy {
+  height: 40vh;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.price-policy hr {
+  width: 50%;
+  margin: 15px auto 25px auto;
+  height: 1.5px;
+  background-color: #1111110e;
+  border: none;
+}
+
+.price-policy p {
+  width: 60%;
+  margin: 20px auto 0 auto;
+}
+
+.cancellation-policy {
+  height: 40vh;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cancellation-policy hr {
+  width: 50%;
+  margin: 15px auto 25px auto;
+  height: 1.5px;
+  background-color: #1111110e;
+  border: none;
+}
+
+.cancellation-policy p {
+  width: 60%;
+  margin: 20px auto 0 auto;
+}
 /* End of PRICE SUBPAGE */
