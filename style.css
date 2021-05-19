@@ -711,15 +711,12 @@ footer {
 .price-header {
   text-align: center;
   margin-top: 50px;
-}
-
-.price-header h1 {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .price-header hr {
-  width: 50%;
-  margin: 25px auto 50px auto;
+  width: 30%;
+  margin: 5px auto 15px auto;
   height: 1.5px;
   background-color: #1111110e;
   border: none;
@@ -753,6 +750,14 @@ footer {
   width: 60%;
   margin: 0 auto;
   text-align: center;
+}
+
+.farvebehandling-header hr {
+  width: 50%;
+  margin: 5px auto 15px auto;
+  height: 1.5px;
+  background-color: #1111110e;
+  border: none;
 }
 
 .farvebehandling-header p {
