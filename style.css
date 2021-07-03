@@ -705,7 +705,7 @@ footer {
 
 /* PRICE SUBPAGE */
 #price-list {
-  height: 265vh;
+  height: 280vh;
 }
 
 .price-header {
@@ -745,11 +745,8 @@ footer {
   width: 50%;
 }
 
-.price-p2 {
-  height: 115vh;
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
+.farvebehandling-header {
+  height: 35vh;
 }
 
 .farvebehandling-header hr {
@@ -763,6 +760,13 @@ footer {
 .farvebehandling-header p {
   width: 60%;
   margin: 20px auto 0 auto;
+}
+
+.price-p2 {
+  height: 135vh;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .prices-p2-1 {
@@ -816,4 +820,51 @@ footer {
   width: 60%;
   margin: 20px auto 0 auto;
 }
+
+@media only screen and (max-width: 850px) {
+  #price-list {
+    height: 480vh;
+  }
+  
+  .price-p1 {
+    height: 90vh;
+  }
+  
+  .klipning {
+    height: 60%;
+    width: 100%;
+  }
+  
+  .styling {
+    height: 40%;
+    width: 100%;
+  }
+
+  .price-p2 {
+    height: 220vh;
+  }
+  
+  .prices-p2-1 {
+    height: 43%;
+    width: 100%;
+  }
+  
+  .prices-p2-2 {
+    height: 50%;
+    width: 100%;
+  }
+
+  .price-policy {
+    height: 75vh;
+  }
+  
+  .cancellation-policy {
+    height: 65vh;
+  }
+  
+}
 /* End of PRICE SUBPAGE */
+
+
+
+
