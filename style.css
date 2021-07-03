@@ -87,7 +87,7 @@ nav {
   
   .logo img {
     width: 350px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
   }
   
   .some-links {
@@ -166,13 +166,13 @@ nav {
           display: flex;
           flex: 2;
           width: 40%;
-          margin-left: 20px;
+          margin-left: 50px;
           margin-right: 3%;
       }
   
       .logo img {
           width: 350px; /* EVT LAV % OM TIL PX, SÅ DU UNDGÅR SIZING */
-          padding-bottom: 10px;
+          padding-bottom: 20px;
           padding-top: 5px;
       }
   
@@ -669,17 +669,9 @@ footer {
 
 
 
+
+
 /* Data and Cookies Section */
-
-
-
-
-/* End of Data and Cookies Section */
-
-
-
-
-/* Data-cookies.html - TERMS SUBPAGE */
 #data-cookie-sec h1 {
   font-size: 30px;
   margin: 50px 80px 0 80px;
@@ -699,7 +691,9 @@ footer {
   font-size: 16px;
   margin: 10px 120px 10px 80px;
 }
-/* End of Data-cookies.html - TERMS SUBPAGE */
+/* End of Data and Cookies Section */
+
+
 
 
 
@@ -727,7 +721,7 @@ footer {
 }
 
 .price-p1 {
-  height: 45vh;
+  height: 47vh;
   width: 60%;
   margin: 0 auto;
   text-align: center;
@@ -746,7 +740,8 @@ footer {
 }
 
 .farvebehandling-header {
-  height: 35vh;
+  height: 20vh;
+  background-color: pink;
 }
 
 .farvebehandling-header hr {
@@ -763,15 +758,16 @@ footer {
 }
 
 .price-p2 {
-  height: 135vh;
+  height: 120vh;
   width: 60%;
   margin: 0 auto;
   text-align: center;
+  background-color: orange;
 }
 
 .prices-p2-1 {
   float: left;
-  height: 85%;
+  height: 50%;
   width: 50%;
 }
 
@@ -782,10 +778,11 @@ footer {
 }
 
 .price-policy {
-  height: 40vh;
+  height: 43vh;
   width: 60%;
   margin: 0 auto;
   text-align: center;
+  background-color: pink;
 }
 
 .price-policy hr {
@@ -821,13 +818,19 @@ footer {
   margin: 20px auto 0 auto;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1400px) {
+  .farvebehandling-header {
+    height: 30vh;
+    }
+  }
+  
+  @media only screen and (max-width: 850px) {
   #price-list {
     height: 480vh;
   }
   
   .price-p1 {
-    height: 90vh;
+    height: 80vh;
   }
   
   .klipning {
@@ -841,7 +844,7 @@ footer {
   }
 
   .price-p2 {
-    height: 220vh;
+    height: 192vh;
   }
   
   .prices-p2-1 {
@@ -850,21 +853,21 @@ footer {
   }
   
   .prices-p2-2 {
-    height: 50%;
+    height: 57%;
     width: 100%;
   }
 
   .price-policy {
-    height: 75vh;
+    height: 65vh;
   }
   
   .cancellation-policy {
     height: 65vh;
   }
-  
 }
+
+@media only screen and (max-width: 850px) {
+  #price-list {
+    height: 480vh;
+  }
 /* End of PRICE SUBPAGE */
-
-
-
-
