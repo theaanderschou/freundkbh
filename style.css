@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: #ced8df;
+  background:               ;
   scroll-behavior: smooth;
   font-style: normal;
   line-height: 1.65;
@@ -50,11 +50,12 @@ a {
 }
 
 .announcement a {
-  color: #cfcfcf;
+  color: #dfdfdf;
+  /*color: #cfcfcf;*/
 }
 
 .announcement a:hover {
-  color: #dfdfdf;
+  color: #fff;
   font-weight: 400;
 }
 /* End of Announcement Bar Section */
@@ -66,8 +67,6 @@ a {
 /* Nav Bar Section */
 nav {
     display: flex;
-    flex: 2;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 8vh;
@@ -75,31 +74,67 @@ nav {
     z-index: 2;
     top: 2.5%;
     border-bottom: 1px #1111110e solid;
-    /*    background-color: rgb(243, 161, 161);*/
   }
   
   .logo {
     display: flex;
-    width: 350px;
+    width: 300px;
     height: 45px;
-    margin-left: 50px;
-    margin-right: 10%;
-    margin-bottom: 25px;
-    background-color: orange;
+    margin-left: 2%;
+    margin-right: 20px;
+    margin-bottom: 20px;
   }
   
   .logo img {
-    width: 350px;
+    width: 300px;
   }
   
+  .some-links-list {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    height: 11vh;
+    position: relative;
+    bottom: 13px;
+    margin-left: 20px;
+  }
+
+  .some-links-list li {
+      display: block;
+      flex-grow: 1;
+      text-align: center;
+      letter-spacing: 3px;
+      font-size: 0.7rem;
+      font-weight: 500;
+      position: relative;
+      width: 140px;
+  }
+
+  .some-links-list li a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+
+  .some-links-list li:hover {
+    border-bottom: 2px solid black;
+  }
+  
+  .some-links-list a {
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 3px;
+  }
+
   .some-links {
     display: flex;
     justify-content: space-around;
     width: 20%;
-    padding-bottom: 5px;
     margin-right: 5%;
   }
-  
+
   .some-link img {
     width: 20px;
     position: relative;
@@ -108,18 +143,16 @@ nav {
   
   .nav-links {
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
+    justify-content: space-around;
+    width: 70%;
     height: 11vh;
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
   }
-  
+
   .nav-links li {
     display: block;
     flex-grow: 1;
-    /*background: rgb(219, 173, 173);
-      transition: .3s;*/
     text-align: center;
     letter-spacing: 3px;
     font-size: 0.7rem;
@@ -144,7 +177,7 @@ nav {
     text-decoration: none;
     letter-spacing: 3px;
   }
-  
+
   .burger {
     display: none;
     cursor: pointer;
@@ -159,7 +192,7 @@ nav {
   }
   
   /* Responsiv max-w 1230px */
-      @media only screen and (max-width: 1230px) {
+      @media only screen and (max-width: 1280px) {
       body {
           overflow-x: hidden;
       }
@@ -167,15 +200,12 @@ nav {
       .logo {
           display: flex;
           flex: 2;
-          width: 40%;
-          margin-left: 50px;
-          margin-right: 3%;
+          width: 300px;
+          margin-left: 2%;
       }
   
       .logo img {
-          width: 350px; /* EVT LAV % OM TIL PX, SÅ DU UNDGÅR SIZING */
-          padding-bottom: 20px;
-          padding-top: 5px;
+          width: 300px;
       }
   
       .nav-links {
