@@ -868,3 +868,51 @@ footer {
     height: 480vh;
   }
 /* End of PRICE SUBPAGE */
+
+
+
+
+
+/* ABOUT SUBPAGE */
+#about {
+  height: 280vh;
+}
+
+.about-text {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* END OF ABOUT SUBPAGE */
+
+
+
+
+
+/* BABY SUBPAGE */
+#baby {
+  height: 250vh;
+  width: 60%;
+}
+
+.baby-text {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* END OF BABY SUBPAGE */
+
+
+
+
+/* COLLAB SUBPAGE */
+#collab {
+  height: 280vh;
+}
+
+.collab-text {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* END OF COLLAB SUBPAGE */
