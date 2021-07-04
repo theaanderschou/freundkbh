@@ -83,11 +83,12 @@ nav {
   display: flex;
   width: 300px;
   margin-left: 2%;
+  margin-right: 30px;
 }
 
 .logo img {
   width: 300px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .some-links {
@@ -157,7 +158,7 @@ nav {
 }
 
 /* Responsiv max-w 1230px */
-    @media only screen and (max-width: 1230px) {
+    @media only screen and (max-width: 1320px) {
     body {
         overflow-x: hidden;
     }
@@ -165,27 +166,24 @@ nav {
     .logo {
         display: flex;
         flex: 2;
-        width: 40%;
-        margin-left: 20px;
-        margin-right: 3%;
+        width: 300px;
+        margin-left: 2%;
     }
 
     .logo img {
-        width: 350px; /* EVT LAV % OM TIL PX, SÅ DU UNDGÅR SIZING */
-        padding-bottom: 10px;
-        padding-top: 5px;
+        width: 300px;
     }
 
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 84.5vh;
-        top: 12vh;
+        height: 85vh;
+        top: 11.7vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 40%;
-        transform: translateX(-10%); /* OVERFLOW FEJL LÅ HER */
+        transform: translateX(200%); /* OVERFLOW FEJL LÅ HER */
         transition: 0.5s ease-in;
         font-size: 0.875rem;
     }
