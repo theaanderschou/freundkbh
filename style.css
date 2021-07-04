@@ -867,6 +867,7 @@ footer {
   #price-list {
     height: 480vh;
   }
+}
 /* End of PRICE SUBPAGE */
 
 
@@ -875,13 +876,41 @@ footer {
 
 /* ABOUT SUBPAGE */
 #about {
-  height: 280vh;
+  height: 130vh;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .about-text {
+  text-align: left;
+  margin-top: 80px;
+}
+
+.about-text h1 {
+  margin-bottom: 20px;
+}
+
+.presentations {
+  width: 100%;
+}
+
+.presentation-pic {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 30px 0 30px 0;
+}
+
+.presentation-pic img {
+  width: 90%;
+}
+
+.salli-presentation {
+  float: left;
+  width: 45%;
+}
+
+.sevina-presentation {
+  float: right;
+  width: 45%;
 }
 /* END OF ABOUT SUBPAGE */
 
@@ -891,14 +920,18 @@ footer {
 
 /* BABY SUBPAGE */
 #baby {
-  height: 250vh;
+  height: 90vh;
   width: 60%;
+  margin: 0 auto;
 }
 
 .baby-text {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  text-align: left;
+  margin-top: 80px;
+}
+
+.baby-text h1 {
+  margin-bottom: 20px;
 }
 /* END OF BABY SUBPAGE */
 
@@ -907,12 +940,49 @@ footer {
 
 /* COLLAB SUBPAGE */
 #collab {
-  height: 280vh;
+  height: 100vh;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .collab-text {
+  text-align: left;
+  margin-top: 80px;
+}
+
+.collab-text h1 {
+  margin-bottom: 20px;
+}
+
+.collabs {
+  width: 100%;
+  height: 150px;
+  margin-top: 30px;
   text-align: center;
+}
+
+.kvindehjemmet {
+  float: left;
+  width: 40%;
+  margin-right: 73px;
+}
+
+.kvindehjemmet img {
+  width: 260px;
+}
+
+.moedrehjaelpen {
+  float: left;
+  width: 350px;
+  margin-top: 25px;
+}
+
+.moedrehjaelpen img {
+  width: 350px;
+}
+
+.collab-text2 {
+  text-align: left;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 /* END OF COLLAB SUBPAGE */
