@@ -912,6 +912,30 @@ footer {
   float: right;
   width: 45%;
 }
+
+@media only screen and (max-width: 1050px) {
+  #about {
+    height: 220vh;
+  }
+
+  .presentation-pic img {
+  width: 70%;
+  }
+
+  .salli-presentation {
+    width: 100%;
+  }
+  
+  .sevina-presentation {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #about {
+    height: 210vh;
+  }
+}
 /* END OF ABOUT SUBPAGE */
 
 
@@ -920,7 +944,7 @@ footer {
 
 /* BABY SUBPAGE */
 #baby {
-  height: 90vh;
+  height: 80vh;
   width: 60%;
   margin: 0 auto;
 }
@@ -932,6 +956,36 @@ footer {
 
 .baby-text h1 {
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1250px) {
+  #baby {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #baby {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  #baby {
+    height: 110vh;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  #baby {
+    height: 120vh;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  #baby {
+    height: 130vh;
+  }
 }
 /* END OF BABY SUBPAGE */
 
@@ -984,5 +1038,39 @@ footer {
 .collab-text2 {
   text-align: left;
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 1180px) {
+  #collab {
+    height: 120vh;
+  }
+
+  .kvindehjemmet {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .moedrehjaelpen {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  #collab {
+    height: 130vh;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  #collab {
+    height: 140vh;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  #collab {
+    height: 150vh;
+  }
 }
 /* END OF COLLAB SUBPAGE */
