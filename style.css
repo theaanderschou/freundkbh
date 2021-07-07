@@ -76,7 +76,6 @@ nav {
   z-index: 2;
   top: 2.5%;
   border-bottom: 1px #1111110e solid;
-  /*    background-color: rgb(243, 161, 161);*/
 }
 
 .logo {
@@ -697,7 +696,7 @@ footer {
 
 /* PRICE SUBPAGE */
 #price-list {
-  height: 280vh;
+  height: 480vh;
 }
 
 .price-header {
@@ -739,7 +738,6 @@ footer {
 
 .farvebehandling-header {
   height: 20vh;
-  background-color: pink;
 }
 
 .farvebehandling-header hr {
@@ -760,7 +758,6 @@ footer {
   width: 60%;
   margin: 0 auto;
   text-align: center;
-  background-color: orange;
 }
 
 .prices-p2-1 {
@@ -775,12 +772,25 @@ footer {
   width: 50%;
 }
 
+.price-p3 {
+  height: 47vh;
+  width: 60%;
+  margin: 30px auto 0 auto;
+  text-align: center;
+}
+
+.price-p4 {
+  height: 140vh;
+  width: 60%;
+  margin: 30px auto 0 auto;
+  text-align: center;
+}
+
 .price-policy {
   height: 43vh;
   width: 60%;
   margin: 0 auto;
   text-align: center;
-  background-color: pink;
 }
 
 .price-policy hr {
