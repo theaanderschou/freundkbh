@@ -43,20 +43,42 @@ a {
 }
 
 .announcement p {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  text-align: center;
+  padding-top: 3px;
 }
 
 .announcement a {
   color: #dfdfdf;
-  /*color: #cfcfcf;*/
 }
 
 .announcement a:hover {
   color: #fff;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 500px) {
+  .announcement {
+    height: 8vh;
+  }
+
+  .announcement p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .announcement {
+    height: 11vh;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .announcement {
+    height: 14vh;
+  }
 }
 /* End of Announcement Bar Section */
 
@@ -82,7 +104,7 @@ nav {
   display: flex;
   width: 28%;
   height: 40px;
-  margin-left: 2%;
+  margin-left: 4%;
   margin-right: 30px;
   margin-bottom: 25px;
 }
@@ -157,7 +179,6 @@ nav {
   transition: all 0.3s ease;
 }
 
-/* Responsiv max-w 1230px */
     @media only screen and (max-width: 1100px) {
     body {
         overflow-x: hidden;
@@ -167,7 +188,7 @@ nav {
         display: flex;
         flex: 2;
         width: 300px;
-        margin-left: 2%;
+        margin-left: 4%;
     }
 
     .logo img {
@@ -178,7 +199,7 @@ nav {
         position: absolute;
         right: 0px;
         height: 85vh;
-        top: 11.7vh;
+        top: 12vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -254,27 +275,66 @@ nav {
         transform: rotate(45deg) translate(-5px, -6px);
     }
   }
-  /* End of Responsiv max-w 1230px */
 
-  /* Responsiv max-w 565px */
-  @media only screen and (max-width: 600px) {
-    .logo img {
-      width: 250px;
-    }
+  @media only screen and (max-width: 650px) {
+    .logo {
+      margin-left: 6%;
+  }
+    
     .nav-links {
-      transform: translateX(-5%); /* OVERFLOW FEJL LÅ HER */
       width: 50%;
     }
   }
-  /* End of Responsiv max-w 565px */
 
-  /* Responsiv max-w 380px */
-  @media only screen and (max-width: 380px) {
-    .logo img {
-      width: 200px;
+  @media only screen and (max-width: 500px) {
+    .nav-links {
+      height: 82vh;
+      top: 16vh;
+      width: 60%;
     }
   }
-  /* End of Responsiv max-w 565px */
+
+  @media only screen and (max-width: 460px) {
+    .logo {
+      margin-top: 5px;
+    }
+
+    .logo img {
+      width: 250px;
+    }
+  }
+
+  @media only screen and (max-width: 415px) {
+    .nav-links {
+      height: 80vh;
+      top: 18vh;
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    .nav-links {
+      height: 79vh;
+      top: 18.5vh;
+      width: 100%;
+      transform: translateX(2%);
+      transition: 0.2s ease-in;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .nav-links {
+      height: 79vh;
+      top: 18vh;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .nav-links {
+      height: 76vh;
+      top: 21vh;
+    }
+  }
 /* End of Nav Bar Section */
 
 
