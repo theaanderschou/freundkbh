@@ -659,14 +659,14 @@ footer {
 
 .footer-social {
   display: flex;
-  width: 100px;
+  width: 135px;
   height: 20px;
   margin: 0px auto;
 }
 
 .footer-social img {
-  width: 30px;
-  padding-left: 10px;
+  width: 40px;
+  padding-left: 15px;
   opacity: 1;
 }
 
