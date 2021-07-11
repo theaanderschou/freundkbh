@@ -128,7 +128,7 @@ nav {
   width: 100%;
   height: 10vh;
   margin: 0;
-  z-index: 2;
+  z-index: 1;
   border-bottom: 1px #1111110e solid;
   position: relative;
   top: -27px;
@@ -319,82 +319,93 @@ nav {
 
 
   /* Booking CTA Index */
+#herobooking {
+  display: flex;
+  z-index: 2;
+  position: absolute; 
+  left: 50%; 
+  top: 50%;
+}
+
+.bookingcta {
+  display: block;
+  width: 250px;
+  height: 80px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.379);
+  transition: .5s ease;
+  transition-property: background-color, color;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 3px;
+  padding-top: 30px;
+}
+
+#herobooking .bookingcta:hover {
+  background-color: #000;
+  color: #fff;
+}
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
+
+@media only screen and (max-width: 1280px) and (max-height: 1024px) {
+    #herobooking {
+        top: 40%;
+      }
+      
+    .bookingcta {
+      width: 200px;
+      height: 60px;
+      padding-top: 20px;
+      font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
+    #herobooking {
+        top: 50%;
+      }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 723px) {
   #herobooking {
-    display: flex;
-    z-index: 2;
-    position: absolute; 
-    left: 50%; 
-    top: 50%;
+    top: 55%;
   }
-  
-  .bookingcta {
-    display: flex;
-    width: 200px;
-    height: 60px;
-    background-color: #fff;
-    border: 1px solid #000;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.379);
-    transition: .5s ease;
-    transition-property: background-color, color;
-    transform: translateX(-50%);
-    padding-left: 27%;
-    align-items: center;
-    text-transform: uppercase;
-    color: #000;
-    font-size: 0.7rem;
-    letter-spacing: 3px;
-  }
-  
-  #herobooking .bookingcta:hover {
-    background-color: #000;
-    color: #fff;
-  }
-  
-      /* Responsiv max-w 400px */
-      @media only screen and (max-width: 400px) {
-        #herobooking {
-          left: 45%;
-          top: 58%;
-        }
-  
-        .bookingcta {
-          margin-left: 10%;
-        }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 609px) {
+    #herobooking {
+        top: 65%;
       }
-  
-      /* Responsiv max-w 375px */
-      @media only screen and (max-width: 375px) {
-        .bookingcta {
-          padding-left: 21%;
-        }
+      
+    .bookingcta {
+      width: 200px;
+      height: 60px;
+      padding-top: 20px;
+      font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (max-height: 1024px) {
+    #herobooking {
+        top: 35%;
       }
-  
-      /* Responsiv max-w 340px */
-      @media only screen and (max-width: 340px) {
-        #herobooking {
-          left: 40%; 
-        }
-  
-        .bookingcta {
-          margin-left: 15%;
-          padding-left: 19%;
-        }
+
+}
+
+@media only screen and (max-width: 414px) and (max-height: 896px) {
+    #herobooking {
+        top: 40%;
       }
-  
-      /* Responsiv max-w 320px */
-      @media only screen and (max-width: 320px) {
-        #herobooking {
-          left: 35%; 
-        }
-  
-        .bookingcta {
-          margin-left: 20%;
-          padding-left: 16%;
-        }
-      }
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
-  /* End of Booking CTA Index */
-  
+}
+/* End of Booking CTA Index */
+
 
 
 
