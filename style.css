@@ -222,6 +222,7 @@ nav {
         transform: translateX(200%); /* OVERFLOW FEJL LÅ HER */
         transition: 0.5s ease-in;
         font-size: 0.875rem;
+        overflow-x: hidden;
     }
 
    .nav-links li {
@@ -230,8 +231,8 @@ nav {
         transition: 0.2s;
         display: table; 
         height: 14vh; 
-        overflow: hidden;
-    }
+        overflow-x: hidden;
+      }
 
     .nav-links li:hover {
         border-bottom: none;
