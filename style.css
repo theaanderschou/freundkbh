@@ -309,8 +309,12 @@ nav {
         transform: translateX(2%);
     }
 
+    .nav-links {
+      height: 75vh;
+    }
+
     .nav-links li {
-      height: 13vh; 
+      height: 12vh; 
   }
 }
 
