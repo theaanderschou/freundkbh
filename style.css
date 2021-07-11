@@ -265,10 +265,6 @@ nav {
         text-align: center;
     }
 
-  /*  .nav-active li a {
-        padding-top: 40px;
-    }*/
-
     .nav-active li:hover {
         background: #c8d1d7;
     }
@@ -325,7 +321,7 @@ nav {
   /* Booking CTA Index */
 #herobooking {
   display: flex;
-  z-index: 1;
+  z-index: 2;
   position: absolute; 
   left: 50%; 
   top: 50%;
