@@ -16,7 +16,7 @@ body {
   scroll-behavior: smooth;
   font-style: normal;
   line-height: 1.65;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a {
