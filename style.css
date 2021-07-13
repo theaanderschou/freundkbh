@@ -133,6 +133,7 @@ nav {
   border-bottom: 1px #1111110e solid;
   position: relative;
   top: -27px;
+  overflow-x: hidden;
 }
 
 .logo {
