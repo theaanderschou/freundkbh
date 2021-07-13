@@ -133,7 +133,6 @@ nav {
   border-bottom: 1px #1111110e solid;
   position: relative;
   top: -27px;
-  overflow-x: hidden;
 }
 
 .logo {
@@ -239,12 +238,14 @@ nav {
 
     .nav-links li:hover {
         border-bottom: none;
+        overflow-x: hidden;
     }
 
     .nav-links a {
         color: black;
         width: 80%;
         display: none;
+        overflow-x: hidden;
     }
 
     .burger {
@@ -260,6 +261,7 @@ nav {
         background-color: #ced8df;
         border: 1px #1111110e solid;
         z-index: 3;
+        overflow-x: hidden;
     }
 
     .nav-active a {
@@ -269,15 +271,18 @@ nav {
         display: table-cell; 
         vertical-align: middle;
         text-align: center;
+        overflow-x: hidden;
     }
 
     .nav-active li:hover {
         background: #c8d1d7;
+        overflow-x: hidden;
     }
 
     .nav-links li:hover a {
         color: black;
         font-weight: 700;
+        overflow-x: hidden;
     }
 
     @keyframes navLinkFade {
