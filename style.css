@@ -220,7 +220,7 @@ nav {
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translateX(-70%); /* OVERFLOW FEJL LÅ HER */
+        transform: translateX(-200%); /* OVERFLOW FEJL LÅ HER */
         transition: 0.5s ease-in;
         font-size: 0.875rem;
         overflow-x: hidden;
