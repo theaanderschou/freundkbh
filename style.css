@@ -161,6 +161,7 @@ nav {
   vertical-align: middle;
   text-align: center;
   z-index: 0;
+  overflow-x: hidden;
 }
 
 .nav-links li a {
