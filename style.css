@@ -161,7 +161,6 @@ nav {
   vertical-align: middle;
   text-align: center;
   z-index: 0;
-  overflow-x: hidden;
 }
 
 .nav-links li a {
@@ -221,11 +220,10 @@ nav {
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translateX(0%); /* OVERFLOW FEJL LÅ HER */
+        transform: translateX(70%); /* OVERFLOW FEJL LÅ HER */
         transition: 0.5s ease-in;
         font-size: 0.875rem;
         overflow-x: hidden;
-        z-index: 2;
     }
 
    .nav-links li {
@@ -259,12 +257,8 @@ nav {
         transform: translateX(4%);
         background-color: #ced8df;
         border: 1px #1111110e solid;
-        z-index: 5;
+        z-index: 3;
     }
-
-    .nav-active li {
-      z-index: 5;
-  }
 
     .nav-active a {
         display: block;
@@ -334,7 +328,7 @@ nav {
   /* Booking CTA Index */
 #herobooking {
   display: flex;
-  z-index: 3;
+  z-index: 1;
   position: absolute; 
   left: 50%; 
   top: 50%;
