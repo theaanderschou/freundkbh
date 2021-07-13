@@ -262,6 +262,10 @@ nav {
         z-index: 5;
     }
 
+    .nav-active li {
+      z-index: 5;
+  }
+
     .nav-active a {
         display: block;
         width: 100%;
