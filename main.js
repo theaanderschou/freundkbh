@@ -4,7 +4,7 @@ const navslide = () => {
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
 
-    burger.addEventListener('click',()=>{
+    function toggleBurger() {
         //Toggle Nav
         nav.classList.toggle('nav-active');
 
@@ -12,13 +12,21 @@ const navslide = () => {
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = ''
-            }else{
+            } else {
                 link.style.animation = `navLinkFade 0.3s ease forwards ${index / 7 + 0.3}s`;
             }
         });
 
         //Burger Animation
         burger.classList.toggle('toggle');
+    }
+
+    burger.addEventListener('click', () => {
+        toggleBurger();
+    });
+
+    nav.addEventListener('click', () => {
+        toggleBurger();
     });
 
 }

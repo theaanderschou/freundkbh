@@ -1,61 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap");
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 html {
-  font-family: "Poppins", sans-serif;
-  height: 100%;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 body {
-  background: #ced8df;
-  scroll-behavior: smooth;
-  font-style: normal;
-  line-height: 1.65;
-  overflow-x: hidden;
+    background: #ced8df;
+    scroll-behavior: smooth;
+    font-style: normal;
+    line-height: 1.65;
+    overflow-x: hidden;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 h1 {
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 34px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 34px;
 }
 
 h2 {
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 26px;
-  margin-top: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 26px;
+    margin-top: 30px;
 }
 
 h3 {
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 20px;
-  margin-top: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-top: 50px;
 }
 
 h4 {
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 14px;
-  line-height: 1.2;
-  margin-top: 10px;
-  margin-bottom: 12px;
-  text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    text-align: center;
 }
 
 h5 {
@@ -63,19 +64,19 @@ h5 {
     letter-spacing: 3px;
     text-align: center;
     padding-top: 2px;
-  }
+}
 
 p {
-  font-weight: 300;
-  letter-spacing: 1px;
-  font-size: 12px;
-  margin-top: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-top: 10px;
 }
 
 a {
-  font-weight: 300;
-  letter-spacing: 1px;
-  font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 12px;
 }
 
 
@@ -83,37 +84,38 @@ a {
 
 /* Announcement Bar Section */
 .announcement {
-  display: block;
-  background-color: #919aa0;
-  font-weight: 300;
-  width: 100%;
-  position: relative;
-  top: -27px;
-  display: table; 
-  height: 4.5vh; 
-  overflow: hidden;
+    display: block;
+    background-color: #919aa0;
+    font-weight: 300;
+    width: 100%;
+    position: relative;
+    top: -27px;
+    display: table;
+    height: 4.5vh;
+    overflow: hidden;
 }
 
 .announcement a {
-  color: #dfdfdf;
-  text-transform: uppercase;
-  font-size: 10px;
-  display: table-cell; 
-  vertical-align: middle;
-  text-align: center;
+    color: #dfdfdf;
+    text-transform: uppercase;
+    font-size: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .announcement a:hover {
-  color: #fff;
-  font-weight: 400;
+    color: #fff;
+    font-weight: 400;
 }
 
 @media only screen and (max-width: 500px) {
     .announcement {
         height: 8vh;
         padding: 0 10% 0 10%;
-      }
+    }
 }
+
 /* End of Announcement Bar Section */
 
 
@@ -122,76 +124,76 @@ a {
 
 /* Nav Bar Section */
 nav {
-  display: flex;
-  flex: 2;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 10vh;
-  margin: 0;
-  z-index: 2;
-  border-bottom: 1px #1111110e solid;
-  position: relative;
-  top: -27px;
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    z-index: 2;
+    border-bottom: 1px #1111110e solid;
+    position: relative;
+    top: -27px;
 }
 
 .logo {
-  display: flex;
-  width: 28%;
-  height: 40px;
-  margin-right: 30px;
-  align-items: center;
+    display: flex;
+    width: 28%;
+    height: 40px;
+    margin-right: 30px;
+    align-items: center;
 }
 
 .logo img {
-  width: 300px;
-  vertical-align: middle;
+    width: 300px;
+    vertical-align: middle;
 }
 
 .nav-links {
-  width: 55%;
-  height: 10vh;
-  display: table; 
-  overflow-x: hidden;
-  margin-right: 2%;
+    width: 55%;
+    height: 10vh;
+    display: table;
+    overflow-x: hidden;
+    margin-right: 2%;
 }
 
 .nav-links li {
-  display: table-cell; 
-  vertical-align: middle;
-  text-align: center;
-  z-index: 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 0;
 }
 
 .nav-links li a {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 .nav-links li:hover {
-  border-bottom: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .nav-links a {
-  color: #000000;
-  text-decoration: none;
-  letter-spacing: 3px;
-  width: 100%;
-  height: 100%;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 3px;
+    width: 100%;
+    height: 100%;
 }
 
 .burger {
-  display: none;
-  cursor: pointer;
+    display: none;
+    cursor: pointer;
 }
 
 .burger div {
-  width: 25px;
-  height: 2px;
-  background-color: #000000;
-  margin: 7px;
-  transition: all 0.3s ease;
+    width: 25px;
+    height: 2px;
+    background-color: #000000;
+    margin: 7px;
+    transition: all 0.3s ease;
 }
 
 
@@ -220,20 +222,20 @@ nav {
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translateX(70%); /* OVERFLOW FEJL LÅ HER */
+        transform: translateX(70%);
         transition: 0.5s ease-in;
         font-size: 0.875rem;
         overflow-x: hidden;
     }
 
-   .nav-links li {
+    .nav-links li {
         opacity: 0;
         width: 100%;
         transition: 0.2s;
-        display: table; 
-        height: 14vh; 
+        display: table;
+        height: 14vh;
         overflow-x: hidden;
-      }
+    }
 
     .nav-links li:hover {
         border-bottom: none;
@@ -246,11 +248,11 @@ nav {
     }
 
     .burger {
-      display: table-cell; 
-      vertical-align: middle;
-      text-align: center;
-      margin-right: 5%;
-        
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        margin-right: 5%;
+
     }
 
     .nav-active {
@@ -264,7 +266,7 @@ nav {
         display: block;
         width: 100%;
         height: 100%;
-        display: table-cell; 
+        display: table-cell;
         vertical-align: middle;
         text-align: center;
     }
@@ -280,12 +282,13 @@ nav {
 
     @keyframes navLinkFade {
         from {
-        opacity: 0;
-        transform: translateX(50px);
+            opacity: 0;
+            transform: translateX(50px);
         }
+
         to {
-        opacity: 1;
-        transform: translateX(0px);
+            opacity: 1;
+            transform: translateX(0px);
         }
     }
 
@@ -302,7 +305,7 @@ nav {
     .logo {
         margin-left: 6%;
     }
-  
+
     .logo img {
         width: 250px;
     }
@@ -313,104 +316,107 @@ nav {
     }
 
     .nav-links {
-      height: 75vh;
+        height: 75vh;
     }
 
     .nav-links li {
-      height: 12vh; 
-  }
+        height: 12vh;
+    }
 }
+
 /* End of Nav Bar Section */
 
 
 
 
-  /* Booking CTA Index */
+/* Booking CTA Index */
 #herobooking {
-  display: flex;
-  z-index: 1;
-  position: absolute; 
-  left: 50%; 
-  top: 50%;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }
 
 .bookingcta {
-  display: block;
-  width: 250px;
-  height: 80px;
-  background-color: #fff;
-  border: 1px solid #000;
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.379);
-  transition: .5s ease;
-  transition-property: background-color, color;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  text-transform: uppercase;
-  color: #000;
-  font-size: 14px;
-  letter-spacing: 3px;
-  padding-top: 30px;
+    display: block;
+    width: 250px;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.379);
+    transition: .5s ease;
+    transition-property: background-color, color;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding-top: 30px;
 }
 
 #herobooking .bookingcta:hover {
-  background-color: #000;
-  color: #fff;
+    background-color: #000;
+    color: #fff;
 }
-  /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
 
 @media only screen and (max-width: 1280px) and (max-height: 1024px) {
     #herobooking {
         top: 40%;
-      }
-      
+    }
+
     .bookingcta {
-      width: 200px;
-      height: 60px;
-      padding-top: 20px;
-      font-size: 12px;
+        width: 200px;
+        height: 60px;
+        padding-top: 20px;
+        font-size: 12px;
     }
 }
 
 @media only screen and (max-width: 1280px) and (max-height: 800px) {
     #herobooking {
         top: 50%;
-      }
+    }
 }
 
 @media only screen and (max-width: 1280px) and (max-height: 723px) {
-  #herobooking {
-    top: 55%;
-  }
+    #herobooking {
+        top: 55%;
+    }
 }
 
 @media only screen and (max-width: 1280px) and (max-height: 609px) {
     #herobooking {
         top: 65%;
-      }
-      
+    }
+
     .bookingcta {
-      width: 200px;
-      height: 60px;
-      padding-top: 20px;
-      font-size: 12px;
+        width: 200px;
+        height: 60px;
+        padding-top: 20px;
+        font-size: 12px;
     }
 }
 
 @media only screen and (max-width: 768px) and (max-height: 1024px) {
     #herobooking {
         top: 35%;
-      }
+    }
 
 }
 
 @media only screen and (max-width: 414px) and (max-height: 896px) {
     #herobooking {
         top: 40%;
-      }
+    }
 }
+
 /* End of Booking CTA Index */
 
 
@@ -422,7 +428,7 @@ nav {
 #index-gallery {
     width: 80%;
     height: auto;
-    margin: 2rem auto 50px auto; 
+    margin: 2rem auto 50px auto;
     margin-left: 13%;
 }
 
@@ -445,7 +451,7 @@ nav {
     grid-row-start: 1;
     grid-row-end: 6;
 }
-  
+
 .gallery__item--2 {
     grid-column-start: 4;
     grid-column-end: 9;
@@ -480,7 +486,7 @@ nav {
     grid-row-start: 8;
     grid-row-end: 17;
 }
-  
+
 .gallery__item--7 {
     grid-column-start: 8;
     grid-column-end: 12;
@@ -564,6 +570,7 @@ nav {
     grid-row-start: 28;
     grid-row-end: 30;
 }
+
 /* End of Index Gallery */
 
 
@@ -577,38 +584,38 @@ footer {
     z-index: 1;
     position: relative;
     border-top: 1px #1111110e solid;
-  }
-  
-  .footer-container {
+}
+
+.footer-container {
     width: 100%;
     height: 100%;
     margin-bottom: 60px;
-  }
-  
-  .footer-logo {
+}
+
+.footer-logo {
     width: 100%;
     height: 5vh;
     text-align: center;
     margin: 60px 0 0 0;
-  }
-  
-  .footer-logo img {
+}
+
+.footer-logo img {
     width: 300px;
-  }
-  
-  .footer-lists {
+}
+
+.footer-lists {
     width: 100%;
     text-align: center;
-  }
-  
-  .footer-column li {
+}
+
+.footer-column li {
     list-style: none;
     color: #000;
     margin-top: 10px;
     text-align: center;
-  }
-  
-  .footer-column {
+}
+
+.footer-column {
     color: #000;
     font-weight: 300;
     display: block;
@@ -618,46 +625,46 @@ footer {
     vertical-align: top;
     margin: 40px 30px 50px 30px;
     width: 200px;
-  }
-  
-  .footer-column1 {
-    height: 150px;
-  }
-  
-  .footer-column2 {
-    height: 130px;
-  }
-  
-  .footer-column p {
-    margin-top: 20px;
-  }
+}
 
-  .footer-column a {
+.footer-column1 {
+    height: 150px;
+}
+
+.footer-column2 {
+    height: 130px;
+}
+
+.footer-column p {
+    margin-top: 20px;
+}
+
+.footer-column a {
     color: #000;
-  }
-  
-  .footer-column a:hover{
+}
+
+.footer-column a:hover {
     font-weight: 600;
-  }
-  
-  .footer-social {
+}
+
+.footer-social {
     display: flex;
     width: 135px;
     height: 25px;
     margin: 5px auto;
-  }
-  
-  .footer-social img {
+}
+
+.footer-social img {
     width: 40px;
     padding-left: 15px;
     opacity: 1;
-  }
-  
-  .footer-social img:hover {
+}
+
+.footer-social img:hover {
     opacity: .5;
-  }
-  
-  .footer-text {
+}
+
+.footer-text {
     width: 100%;
     display: inline-block;
     font-weight: 300;
@@ -666,167 +673,169 @@ footer {
     position: relative;
     top: -15px;
     margin-top: 50px;
-  }
-  
-  .footer-text p {
-    margin-bottom: 5px;
-  }
+}
 
-  .footer-text a {
+.footer-text p {
+    margin-bottom: 5px;
+}
+
+.footer-text a {
     color: #248bcf;
     padding: 0 5px 0 5px;
-  }
-
-@media only screen and (max-width: 550px) {      
-  .footer-text {
-    margin-top: 0;
-  }
 }
+
+@media only screen and (max-width: 550px) {
+    .footer-text {
+        margin-top: 0;
+    }
+}
+
 /* End of Footer Section */
-  
-  
+
+
 
 
 #prices {
-  width: 60%;
-  height: auto;
-  margin: 0 auto 100px auto;
+    width: 60%;
+    height: auto;
+    margin: 0 auto 100px auto;
 }
 
 .price-header {
-  text-align: center;
+    text-align: center;
 }
 
 .price-header p {
-  font-size: 14px;
-  font-weight: 400;
-  text-decoration: underline;
-  margin: 0 auto 50px auto;
-  width: 40%;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    margin: 0 auto 50px auto;
+    width: 40%;
 }
 
 .klipning {
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .styling {
-  width: 100%;
-  margin-bottom: 100px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .price-p2 {
-  width: 100%;
-  margin-bottom: 50px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .price-p2 p {
-  width: 50%;
-  margin: 0 auto;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .prices-p2-1 {
-  width: 100%;
-  margin-bottom: 50px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .prices-p2-2 {
-  width: 100%;
-  margin-bottom: 100px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .price-p3 {
-  width: 100%;
-  margin-bottom: 50px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .brud {
-  width: 100%;
-  margin-bottom: 100px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .bryn-vipper {
-  width: 100%;
-  margin-bottom: 100px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .price-p5 {
-  width: 100%;
-  margin-bottom: 50px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .negle1 {
-  width: 100%;
-  margin-bottom: 50px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .negle2 {
-  width: 100%;
-  margin-bottom: 100px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .price-policy {
-  width: 100%;
-  margin-bottom: 100px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .price-policy p {
-  width: 60%;
-  margin: 0 auto;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .cancellation-policy {
-  width: 100%;
-  margin-bottom: 100px;
-  text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .cancellation-policy p {
-  width: 60%;
-  margin: 0 auto;
+    width: 60%;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 768px) {
-  #prices {
-    width: 80%;
-  }
+    #prices {
+        width: 80%;
+    }
 
-  .price-header p {
-    width: 80%;
-  }
+    .price-header p {
+        width: 80%;
+    }
 
-  .price-policy p, .cancellation-policy p {
-    width: 100%;
-  }
+    .price-policy p,
+    .cancellation-policy p {
+        width: 100%;
+    }
 
-  .negle2 {
-    margin-bottom: 50px;
-  }
+    .negle2 {
+        margin-bottom: 50px;
+    }
 }
 
 @media only screen and (max-width: 414px) {
-  #prices {
-    width: 90%;
-  }
+    #prices {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 414px) {
-  #prices {
-    width: 100%;
-  }
+    #prices {
+        width: 100%;
+    }
 }
 
 /* Price Subpage 
@@ -924,86 +933,87 @@ footer {
 */
 
 @media only screen and (max-width: 768px) {
-  .price-header {
-    width: 80%;
-    margin: 0 auto;
-  }
+    .price-header {
+        width: 80%;
+        margin: 0 auto;
+    }
 
-  .price-p1 {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .klipning {
-    width: 100%;
-  }
-  
-  .styling {
-    width: 100%;
-  }
-  
-  .price-p2 {
-    width: 80%;
-    margin: 0 auto 50px auto;
-  }
+    .price-p1 {
+        width: 80%;
+        margin: 0 auto;
+    }
 
-  .prices-p2-1 {
-    width: 100%;
-  }
-  
-  .prices-p2-2 {
-    width: 100%;
-  }
-  
-  .price-p3 {
-    width: 80%;
-    margin: 0 auto 50px auto;
-  }
+    .klipning {
+        width: 100%;
+    }
 
-  .brud {
-    width: 100%;
-  }
-  
-  .price-p4 {
-    width: 80%;
-    margin: 0 auto 50px auto;
-  }
+    .styling {
+        width: 100%;
+    }
 
-  .bryn-vipper {
-    width: 100%;
-  }
-  
-  .price-p5 {
-    width: 80%;
-    margin: 0 auto 50px auto;
-  }
+    .price-p2 {
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
 
-  .negle1 {
-    width: 100%;
-  }
-  
-  .negle1 p {
-    width: 100%;
-  }
-  
-  .negle2 {
-    width: 100%;
-  }
-  
-  .negle2 p {
-    width: 100%;
-  }
-  
-  .price-policy {
-    width: 80%;
-    margin: 0 auto 50px auto;
-  }
-  
-  .cancellation-policy {
-    width: 80%;
-    margin: 0 auto 50px auto;
-  }
+    .prices-p2-1 {
+        width: 100%;
+    }
+
+    .prices-p2-2 {
+        width: 100%;
+    }
+
+    .price-p3 {
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
+
+    .brud {
+        width: 100%;
+    }
+
+    .price-p4 {
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
+
+    .bryn-vipper {
+        width: 100%;
+    }
+
+    .price-p5 {
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
+
+    .negle1 {
+        width: 100%;
+    }
+
+    .negle1 p {
+        width: 100%;
+    }
+
+    .negle2 {
+        width: 100%;
+    }
+
+    .negle2 p {
+        width: 100%;
+    }
+
+    .price-policy {
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
+
+    .cancellation-policy {
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
 }
+
 /* End of Price Subpage */
 
 
@@ -1012,10 +1022,11 @@ footer {
 
 /* About Subpage */
 #about {
-  width: 60%;
-  height: auto;
-  margin: 0 auto 100px auto;
+    width: 60%;
+    height: auto;
+    margin: 0 auto 100px auto;
 }
+
 /* End of About Subpage */
 
 
@@ -1023,10 +1034,11 @@ footer {
 
 /* Baby Subpage */
 #baby {
-  width: 60%;
-  height: auto;
-  margin: 0 auto 100px auto;
+    width: 60%;
+    height: auto;
+    margin: 0 auto 100px auto;
 }
+
 /* End of Baby Subpage */
 
 
@@ -1035,53 +1047,54 @@ footer {
 
 /* Collab Subpage */
 #collab {
-  width: 72%;
-  height: auto;
-  margin: 0 auto 100px auto;
+    width: 72%;
+    height: auto;
+    margin: 0 auto 100px auto;
 }
 
 .collabs {
-  width: 100%;
-  height: 150px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .kvindehjemmet {
-  float: left;
-  width: 50%;
-  margin-top: 15px;
+    float: left;
+    width: 50%;
+    margin-top: 15px;
 }
 
 .kvindehjemmet img {
-  width: 200px;
+    width: 200px;
 }
 
 .moedrehjaelpen {
-  float: left;
-  width: 50%;
-  margin-top: 25px;
+    float: left;
+    width: 50%;
+    margin-top: 25px;
 }
 
 .moedrehjaelpen img {
-  width: 250px;
+    width: 250px;
 }
 
 @media only screen and (max-width: 980px) {
-  .collabs {
-    height: 270px;
-  }
+    .collabs {
+        height: 270px;
+    }
 
-  .kvindehjemmet {
-    width: 100%;
-  }
+    .kvindehjemmet {
+        width: 100%;
+    }
 
-  .moedrehjaelpen {
-    width: 100%;
-    margin-top: 50px;
-  }
+    .moedrehjaelpen {
+        width: 100%;
+        margin-top: 50px;
+    }
 }
+
 /* End of Collab Subpage */
 
 
@@ -1090,8 +1103,9 @@ footer {
 
 /* Cookie Subpage */
 #data-cookie-sec {
-  width: 70%;
-  height: auto;
-  margin: 0 auto 100px auto;
+    width: 70%;
+    height: auto;
+    margin: 0 auto 100px auto;
 }
+
 /* End of Cookie Subpage */
